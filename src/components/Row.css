@@ -1,0 +1,33 @@
+.row{
+    margin-left: 20px;
+}
+.row_posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+  }
+  
+  .row_posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .boxposter {
+    margin-right: 10px;
+    flex: 0 0 auto;  /*flex grow and shrink will be 0 not change and slex basis maintain heught and width acc to content or specified*/
+  }
+  
+  .row_poster {
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 0.2s;
+  }
+  
+  .row_posterLarge {
+    max-height: 250px;
+  }
+  
+  .row_poster:hover {
+    transform: scale(1.08);
+  }
+  
