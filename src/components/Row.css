@@ -1,6 +1,11 @@
 .row{
     margin-left: 20px;
 }
+.row_title{
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
 .row_posters {
     display: flex;
     overflow-x: scroll;
